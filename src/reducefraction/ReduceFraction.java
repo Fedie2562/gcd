@@ -21,6 +21,7 @@ public class ReduceFraction {
         // Input
         int numerator = Integer.parseInt(JOptionPane.showInputDialog("Enter the numerator"));
         int denominator = Integer.parseInt(JOptionPane.showInputDialog("Enter the denominator"));
+        // Output
         System.out.println("The fraction "+numerator+"/"+denominator+" can be reduced to "
                 +numerator/gcd(numerator,denominator)+"/"+denominator/gcd(numerator,denominator));
     }
